@@ -3,14 +3,204 @@
 
   <head>
     <title>Code Copy #2</title>
-    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
     <!--Put your CSS inside this style tag-->
     <style>
+.container {
+    position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+	display: inline-block;
+	margin: 0;
+	width: 100%;
+	min-width: 1024px;
+	height: 48px;
+	max-height: 44px;
+	background: #333;
+	background: rgba(0,0,0,0.8);
+	font-size: 18px;
+}
+.logo {
+	width: 20px;
+	background-position: center center;
+	padding-left: 310px;
+}
+.search {
+	width: 20px;
+}
+.bag {
+	width: 20px;
+
+}
+.bigpic {
+	width: 100%;
+	display: inline-block;
+	height: 550px;
+}
+.image-wrap {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+ul {
+	list-style-type: none;
+	text-align: left;
+}
+section {
+	display: inline-block;
+	width: 100%
+}
+img {
+	width: 25%;
+	margin-right: -1%;
+	height: auto;
+}
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+a {
+	outline: 0;
+}
+footer {
+	background-color: #fdfffc;
+}
+.store {
+	padding-right: 55px;
+}
+.column1 {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 0 22px;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	display: table-cell;
+
+}
+.column2 {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 0 22px;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	display: table-cell;
+	vertical-align: 
+}
+.column-1 {
+	text-align: left;
+	color: #777776;
+	padding-right: 65px;
+}
+.column-2 {
+	text-align: left;
+	color: #777776;
+}
+	ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+	ul.topnav li {
+		float: left;
+		letter-spacing: 1px;
+		font-size: 1em;
+		font-family: 'Open Sans', sans-serif;
+}
+	ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+	ul.topnav li a:hover {color: #808080;}
+	ul.topnav li.icon {display: none;}
     </style>
 
   </head>
   
   <body>
+  <div class="container">
+  	<header>
+  		 <ul class="topnav" id="myTopnav">
+  		<li><a href="http://www.apple.com"><img class="logo" src="img/apple-logo.png"></a></li> 
+  		<li><a href="http://www.apple.com/mac/">Mac</a></li>
+		<li><a href="http://www.apple.com/ipad/">iPad</a></li>
+		<li><a href="http://www.apple.com/iphone/">iPhone</a></li>
+		<li><a href="http://www.apple.com/watch/">Watch</a></li>
+		<li><a href="http://www.apple.com/tv/">TV</a></li>
+		<li><a href="http://www.apple.com/music/">Music</a></li>
+		<li><a href="https://support.apple.com/">Support</a></li>
+		<li><a href="apple.com"><img class="search" src="img/search.png"></a></li>
+		<li><a href="apple.com"><img class="bag" src="img/bag.png"></a></li>
+		<li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+  	</div>
+  	</header>
+  	<div class="image-wrap">
+  		<a href="http://www.apple.com/iphone-7/">
+		<img class="bigpic" src="img/iphone.jpg"></a>
+	</div>
+	<section>
+		<a href="www.apple.com/shop/accessories/all-accessories/made-by-apple/">
+		<img src="img/made-by-apple.jpg"></a>
+		<a href="http://www.apple.com/ipad-pro/">
+		<img src="img/ipad_pro.jpg"></a>
+		<a href="http://www.apple.com/airpods/">
+		<img src="img/airpods.jpg"></a>
+		<a href="http://www.apple.com/tvos/">
+		<img src="img/apple_tv.jpg"></a>
+	</section>
+	<footer>
+		<div class="column1">
+			<h4>Shop and Learn</h4>
+			<ul>
+			<li class="column-1">Mac</li>
+			<li class="column-1">iPad</li>
+			<li class="column-1">iPhone</li>
+			<li class="column-1">Watch</li>
+			<li class="column-1">TV</li>
+			<li class="column-1">Music</li>
+			<li class="column-1">iTunes</li>
+			<li class="column-1">iPod</li>
+			<li class="column-1">Accessories</li>
+			<li class="column-1">Gift Cards</li>
+			</ul>
+		</div>
+		<div class="column2">
+			<h4 class="store">Apple Store</h4>
+			<ul>
+				<li class="column-2">Find a Store</li>
+				<li class="column-2">Genius Bar</li>
+				<li class="column-2">Workshops and Learning</li>
+				<li class="column-2">Youth Programs</li>
+				<li class="column-2">Apple Store App</li>
+				<li class="column-2">Refurbished and Clearance</li>
+				<li class="column-2">Financing</li>
+				<li class="column-2">Reuse and Recycling</li>
+				<li class="column-2">Order Status</li>
+				<li class="column-2">Shopping Help</li>
+
+
+
+			</ul>
+			</div>
+		</div>
+
+		
+	</footer>	  	
+
+
+  	
   </body>
   
 </html>
